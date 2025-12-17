@@ -13,6 +13,7 @@ public partial class ActualPlayer : Node
     private Camera3D mainCamera;
     public override void _Ready()
     {
+        GD.Print((int)LimbTypes.Head);
         //Establish a singleton
         if (instance == null)
         {
